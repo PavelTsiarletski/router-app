@@ -5,6 +5,20 @@
 .header-brand {
     animation: color-change 10s infinite linear;
 }
+.card {
+    margin-left: 2.5rem;
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: left;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
 
     @keyframes color-change {
         0%, 100% {
@@ -15,7 +29,7 @@
     }
 
 .card-deck {
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto !important;
     padding: 4rem 0 0 0;
     position: relative;
@@ -64,6 +78,13 @@
     outline: none;
     cursor: pointer;
 }
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
 .wp_btn:hover {
     color: black;
     background-color: white;
@@ -80,21 +101,11 @@
     font-size: 7rem;
     margin-bottom: 5%;
   }
-  
-  @media screen and (max-width:425px){
-      .wp_title {
-          font-size: 4rem;
-          padding-top: 30%;
-      }
-  }
- 
-  @media screen and (max-width:320px){
-    .wp_title {
-        font-size: 3rem;
-        padding-top: 40%;
-        }
-    }
-    
+
+
+.card {
+    width: 18rem;
+}
   @keyframes blur {
     from {
       text-shadow:0px 0px 10px #fff,
@@ -117,4 +128,83 @@
         0px -5px 50px #7B96B8;
     } 
   }
-  
+
+
+.video {
+    margin: 0 auto;
+    height: 1200px;
+    width: 100%;
+}
+
+@media screen and (max-height: 1199px){
+    .video {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-height: 1099px){
+    .video {
+        height: 900px;
+    }
+}
+
+@media screen and (max-height: 999px){
+    .video {
+        height: 800px;
+    }
+}
+@media screen and (max-height: 899px){
+    .video {
+        height: 700px;
+    }
+}
+
+@media screen and (max-height: 799px){
+    .video {
+        height: 600px;
+    }
+}
+
+@media screen and (max-height: 699px){
+    .video {
+        height: 500px;
+    }
+}
+
+@media screen and (max-height: 599px){
+    .video {
+        height: 400px;
+    }
+}
+
+@media screen and (max-height: 499px){
+    .video {
+        height: 300px;
+    }
+}
+
+@media screen and (max-height: 399px){
+    .video {
+        height: 200px;
+    }
+}
+
+@media screen and (max-height: 299px){
+    .video {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .wp_title {
+        font-size: 4rem;
+        padding-top: 30%;
+    }
+}
+
+@media screen and (max-width:320px){
+  .wp_title {
+      font-size: 3rem;
+      padding-top: 40%;
+      }
+  }
