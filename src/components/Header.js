@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../img/logo.svg'
 import './style.css'
+import {Link} from 'react-router-dom'
 
 export default class Header extends Component {
     render(){
@@ -14,13 +15,13 @@ export default class Header extends Component {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className='navbar-nav mr-auto'>
            <li className="nav-item">
-               <a href='/home/' className='nav-link'>Home</a></li>
+               <Link to='/home/' className='nav-link'>Home</Link></li>
              <li className="nav-item">
-               <a href='/home/colums/' className='nav-link'>Colums</a></li>
+               <Link to='/home/colums/' className='nav-link'>Colums</Link></li>
                <li className="nav-item">
-               <a href='/home/video/' className='nav-link'>Video</a></li>
+               <Link to='/home/video/' className='nav-link'>Video</Link></li>
                <li className="nav-item">
-               <a href='/home/galery/' className='nav-link'>Galery</a></li>
+               <Link to='/home/galery/' className='nav-link'>Galery</Link></li>
            </ul>
       </div>
     </nav>

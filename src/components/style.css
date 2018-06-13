@@ -6,7 +6,7 @@
     animation: color-change 10s infinite linear;
 }
 .card {
-    margin-left: 2.5rem;
+    margin: 1rem auto;
 }
 .navbar-nav {
     float:none;
@@ -54,7 +54,6 @@
 }
 
 .welcome-page {
-    background: url("https://images2.alphacoders.com/755/755832.jpg") no-repeat;
     background-size: cover;
     color: white;
     width: 100%;
@@ -63,20 +62,19 @@
     position: fixed;
     font-size: 3rem;
     padding-top: 10%;
-    background-position: center;
+    background: url("https://images2.alphacoders.com/755/755832.jpg") no-repeat center;
 }
 
 .wp_btn {
-    height: 3rem;
-    width: 15rem;
+    padding: 1rem 4rem;
     font-size: 1.5rem;
     color: white;
     background-color: transparent;
     border-radius: 2rem;
     transition: 1s ease-in-out;
-    box-shadow: .2rem .2rem rgba(255, 255, 255, 0.3);
+    box-shadow: .4rem .4rem rgba(255, 255, 255, 0.1);
     outline: none;
-    cursor: pointer;
+    border: 2px white solid;
 }
 
 .col-centered{

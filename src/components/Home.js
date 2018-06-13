@@ -19,6 +19,6 @@ export default class Home extends Component {
                     <Route path='/home/galery/' component={Galery}/>
                 </div>
             </div>
-      )
-    } 
+            )
+    }
   }
